@@ -1,0 +1,17 @@
+08:25:12.965 -> Wake up!
+08:25:19.592 -> Water Level: 602.93 cm
+08:25:19.592 -> Free memory before transmitting: 503
+08:25:19.657 -> Started a new packet
+08:25:19.657 -> Added 'Water Level: ' to the packet
+08:25:19.723 -> Added water level to the packet
+08:25:19.755 -> Added ' cm' to the packet
+08:25:19.755 -> Attempted to send packet
+08:25:19.788 -> Data transmitted via LoRa.
+08:25:24.768 -> Alarm set for: 12:07:09
+08:25:24.812 -> Wake up!
+08:25:29.830 -> Water Level: 603.12 cm
+08:25:29.830 -> Free memory before transmitting: 503
+08:25:29.896 -> Started a new packet
+08:25:29.896 -> Added 'Water Level: ' to the packet
+08:25:29.928 -> Added water level to the packet
+08:25:29.961 -> Added ' cm' to the packet
