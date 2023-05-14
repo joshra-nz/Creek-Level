@@ -71,12 +71,12 @@ float readWaterLevel() {
 //--------------SEND DATA LORA--------------//
 void transmitDataViaLoRa(float waterLevel) {
 
-   // Reset the LoRa radio
-  //digitalWrite(LoRa_RST, LOW);
-  //delay(10);
-  //digitalWrite(LoRa_RST, HIGH);
-  //delay(10);
-  //Serial.println("LoRa Reset");
+  // Reset the LoRa radio
+  digitalWrite(LoRa_RST, LOW);
+  delay(10);
+  digitalWrite(LoRa_RST, HIGH);
+  delay(10);
+  Serial.println("LoRa Reset");
 
   // Begin a new LoRa packet for transmission
   LoRa.beginPacket();
@@ -106,7 +106,7 @@ void transmitDataViaLoRa(float waterLevel) {
   }
 }
 
-
+//--------------LOG DATA TO SD--------------//
 void logDataToSDCard(float waterLevel) {
   File dataFile = SD.open("datalog.txt", FILE_WRITE);
 
