@@ -1,10 +1,1 @@
-Account                       joshra-nz (Plan: Free)                                                                                                               
-Version                       2.3.41                                                                                                                               
-Region                        United States (us)                                                                                                                   
-Web Interface                 http://127.0.0.1:4040                                                                                                                
-Forwarding                    http://6b4d-2404-4408-8a0c-1c00-ec03-c3da-7dd9-ac3.ngrok-free.app -> http://localhost:80                                             
-Forwarding                    https://6b4d-2404-4408-8a0c-1c00-ec03-c3da-7dd9-ac3.ngrok-free.app -> http://localhost:80                                            
-                                                                                                                                                                   
-Connections                   ttl     opn     rt1     rt5     p50     p90                                                                                          
-                              0       0       0.00    0.00    0.00    0.00                                                                                         
-                                                                                                                           
+http://6b9b-2404-4408-8a0c-1c00-ec03-c3da-7dd9-ac3.ngrok-free.app
